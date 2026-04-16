@@ -1,0 +1,881 @@
+{
+  "name": "StudentConfig",
+  "studentTypes": [
+    {
+      "id": 1765365377771,
+      "name": "Aufmerksam"
+    },
+    {
+      "id": 1765365398266,
+      "name": "Störend"
+    },
+    {
+      "id": 1769764147921,
+      "name": "Abgelenkt"
+    },
+    {
+      "id": 1770027925208,
+      "name": "Autonom"
+    }
+  ],
+  "motives": [
+    {
+      "id": 1767358871279,
+      "studentTypeId": 1765365377771,
+      "motiveType": "Competence",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1767358874954,
+      "studentTypeId": 1765365377771,
+      "motiveType": "Relatedness",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1770737167678,
+      "studentTypeId": 1765365377771,
+      "motiveType": "Autonomy",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1765365454787,
+      "studentTypeId": 1765365398266,
+      "motiveType": "Competence",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1767089573160,
+      "studentTypeId": 1765365398266,
+      "motiveType": "Relatedness",
+      "value": 0.8,
+      "tickChange": 0.002
+    },
+    {
+      "id": 1770737164002,
+      "studentTypeId": 1765365398266,
+      "motiveType": "Autonomy",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1769764180073,
+      "studentTypeId": 1769764147921,
+      "motiveType": "Competence",
+      "value": 0.6,
+      "tickChange": 0.002
+    },
+    {
+      "id": 1769764193144,
+      "studentTypeId": 1769764147921,
+      "motiveType": "Relatedness",
+      "value": 0.6,
+      "tickChange": 0.002
+    },
+    {
+      "id": 1770737158577,
+      "studentTypeId": 1769764147921,
+      "motiveType": "Autonomy",
+      "value": 0.6,
+      "tickChange": 0.002
+    },
+    {
+      "id": 1770027942616,
+      "studentTypeId": 1770027925208,
+      "motiveType": "Competence",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1770027943861,
+      "studentTypeId": 1770027925208,
+      "motiveType": "Relatedness",
+      "value": 0.5,
+      "tickChange": 0.001
+    },
+    {
+      "id": 1770027944756,
+      "studentTypeId": 1770027925208,
+      "motiveType": "Autonomy",
+      "value": 0.7,
+      "tickChange": 0.002
+    },
+    {
+      "id": 1775812874270,
+      "studentTypeId": 1765365398266,
+      "motiveType": "Approval",
+      "value": 0.6,
+      "tickChange": 0.0015
+    }
+  ],
+  "personalityWeights": [
+    {
+      "id": 1775571594031.5269,
+      "studentTypeId": 1765365377771,
+      "TeacherPresence": 1.2,
+      "TeacherVoiceInstruction": 1.2,
+      "Student": 1,
+      "ClassEnvironment": 1.2,
+      "Distractor": 1,
+      "ViolationOfAutonomy": 0.6
+    },
+    {
+      "id": 1775571594031.2812,
+      "studentTypeId": 1765365398266,
+      "TeacherPresence": 0.4,
+      "TeacherVoiceInstruction": 0.4,
+      "Student": 1.7,
+      "ClassEnvironment": 1,
+      "Distractor": 1.6,
+      "ViolationOfAutonomy": 1.5
+    },
+    {
+      "id": 1775571594031.7778,
+      "studentTypeId": 1769764147921,
+      "TeacherPresence": 1,
+      "TeacherVoiceInstruction": 1,
+      "Student": 2,
+      "ClassEnvironment": 1,
+      "Distractor": 2,
+      "ViolationOfAutonomy": 1
+    },
+    {
+      "id": 1775571594031.331,
+      "studentTypeId": 1770027925208,
+      "TeacherPresence": 0.5,
+      "TeacherVoiceInstruction": 0.5,
+      "Student": 1,
+      "ClassEnvironment": 1,
+      "Distractor": 1.5,
+      "ViolationOfAutonomy": 2
+    }
+  ],
+  "levels": [
+    {
+      "levelName": "medium",
+      "entries": [
+        {
+          "name": "Tom",
+          "studentTypeId": 1765365377771,
+          "seatId": 1,
+          "imageId": "687e077d8010b70ef533e8e9"
+        },
+        {
+          "name": "Alisa",
+          "studentTypeId": 1770027925208,
+          "seatId": 2,
+          "imageId": "68b19c2c17ecc3164604b1a2"
+        },
+        {
+          "name": "Jana",
+          "studentTypeId": 1765365377771,
+          "seatId": 3,
+          "imageId": "691d8030672cca15c2638e5a"
+        },
+        {
+          "name": "Mehmet",
+          "studentTypeId": 1769764147921,
+          "seatId": 4,
+          "imageId": "68b19bacbac430a52c91a838"
+        },
+        {
+          "name": "Raja",
+          "studentTypeId": 1770027925208,
+          "seatId": 5,
+          "imageId": "6960e01a452afe2bbffed8bc"
+        },
+        {
+          "name": "Max",
+          "studentTypeId": 1765365377771,
+          "seatId": 6,
+          "imageId": "68b1990f8e571f73228a3921"
+        },
+        {
+          "name": "Sven",
+          "studentTypeId": 1765365398266,
+          "seatId": 7,
+          "imageId": "68b19aa283ef17237f8060a9"
+        },
+        {
+          "name": "Toni",
+          "studentTypeId": 1765365398266,
+          "seatId": 8,
+          "imageId": "68b199cb83ef17237f8054ab"
+        },
+        {
+          "name": "Mareike",
+          "studentTypeId": 1765365398266,
+          "seatId": 9,
+          "imageId": "68b19a266b7c5bd83d522ad0"
+        },
+        {
+          "name": "Hanna",
+          "studentTypeId": 1765365377771,
+          "seatId": 10,
+          "imageId": "68b05ec61a12d32b96a8a0bb"
+        },
+        {
+          "name": "Lukas",
+          "studentTypeId": 1765365377771,
+          "seatId": 11,
+          "imageId": "68b1997f185911b6c95974ee"
+        },
+        {
+          "name": "Simon",
+          "studentTypeId": 1769764147921,
+          "seatId": 12,
+          "imageId": "68b19ae483ef17237f806574"
+        },
+        {
+          "name": "Lara",
+          "studentTypeId": 1769764147921,
+          "seatId": 13,
+          "imageId": "68b19b0d36d4d52aff1a192f"
+        },
+        {
+          "name": "Bahar",
+          "studentTypeId": 1769764147921,
+          "seatId": 14,
+          "imageId": "68b19b7217ecc3164604a7b9"
+        },
+        {
+          "name": "Sara",
+          "studentTypeId": 1765365398266,
+          "seatId": 15,
+          "imageId": "68b19a6683ef17237f805d2a"
+        },
+        {
+          "name": "Seren",
+          "studentTypeId": 1769764147921,
+          "seatId": 16,
+          "imageId": "68b19bf68e571f73228a6634"
+        },
+        {
+          "name": "Anja",
+          "studentTypeId": 1765365377771,
+          "seatId": 17,
+          "imageId": "697b55ab2e95e332052810b6"
+        },
+        {
+          "name": "Kataryna",
+          "studentTypeId": 1770027925208,
+          "seatId": 18,
+          "imageId": "68b19cb2fbd5a2b89c4533bc"
+        },
+        {
+          "name": "Artem",
+          "studentTypeId": 1770027925208,
+          "seatId": 19,
+          "imageId": "68b19c736b7c5bd83d524efd"
+        },
+        {
+          "name": "Richard",
+          "studentTypeId": 1765365377771,
+          "seatId": 20,
+          "imageId": "68b1963a8e571f73228a14db"
+        }
+      ]
+    },
+    {
+      "levelName": "hard",
+      "entries": [
+        {
+          "name": "Tom",
+          "studentTypeId": 1765365377771,
+          "seatId": 1,
+          "imageId": "687e077d8010b70ef533e8e9"
+        },
+        {
+          "name": "Anja",
+          "studentTypeId": 1765365377771,
+          "seatId": 2,
+          "imageId": "697b55ab2e95e332052810b6"
+        },
+        {
+          "name": "Jana",
+          "studentTypeId": 1765365377771,
+          "seatId": 3,
+          "imageId": "691d8030672cca15c2638e5a"
+        },
+        {
+          "name": "Hanna",
+          "studentTypeId": 1765365377771,
+          "seatId": 4,
+          "imageId": "68b05ec61a12d32b96a8a0bb"
+        },
+        {
+          "name": "Richard",
+          "studentTypeId": 1765365398266,
+          "seatId": 5,
+          "imageId": "68b1963a8e571f73228a14db"
+        },
+        {
+          "name": "Max",
+          "studentTypeId": 1765365398266,
+          "seatId": 6,
+          "imageId": "68b1990f8e571f73228a3921"
+        },
+        {
+          "name": "Lukas",
+          "studentTypeId": 1765365398266,
+          "seatId": 7,
+          "imageId": "68b1997f185911b6c95974ee"
+        },
+        {
+          "name": "Toni",
+          "studentTypeId": 1765365398266,
+          "seatId": 8,
+          "imageId": "68b199cb83ef17237f8054ab"
+        },
+        {
+          "name": "Mareike",
+          "studentTypeId": 1765365398266,
+          "seatId": 9,
+          "imageId": "68b19a266b7c5bd83d522ad0"
+        },
+        {
+          "name": "Sara",
+          "studentTypeId": 1769764147921,
+          "seatId": 10,
+          "imageId": "68b19a6683ef17237f805d2a"
+        },
+        {
+          "name": "Sven",
+          "studentTypeId": 1769764147921,
+          "seatId": 11,
+          "imageId": "68b19aa283ef17237f8060a9"
+        },
+        {
+          "name": "Simon",
+          "studentTypeId": 1769764147921,
+          "seatId": 12,
+          "imageId": "68b19ae483ef17237f806574"
+        },
+        {
+          "name": "Lara",
+          "studentTypeId": 1769764147921,
+          "seatId": 13,
+          "imageId": "68b19b0d36d4d52aff1a192f"
+        },
+        {
+          "name": "Bahar",
+          "studentTypeId": 1769764147921,
+          "seatId": 14,
+          "imageId": "68b19b7217ecc3164604a7b9"
+        },
+        {
+          "name": "Mehmet",
+          "studentTypeId": 1769764147921,
+          "seatId": 15,
+          "imageId": "68b19bacbac430a52c91a838"
+        },
+        {
+          "name": "Seren",
+          "studentTypeId": 1770027925208,
+          "seatId": 16,
+          "imageId": "68b19bf68e571f73228a6634"
+        },
+        {
+          "name": "Alisa",
+          "studentTypeId": 1770027925208,
+          "seatId": 17,
+          "imageId": "68b19c2c17ecc3164604b1a2"
+        },
+        {
+          "name": "Kataryna",
+          "studentTypeId": 1770027925208,
+          "seatId": 18,
+          "imageId": "68b19cb2fbd5a2b89c4533bc"
+        },
+        {
+          "name": "Artem",
+          "studentTypeId": 1770027925208,
+          "seatId": 19,
+          "imageId": "68b19c736b7c5bd83d524efd"
+        },
+        {
+          "name": "Raja",
+          "studentTypeId": 1770027925208,
+          "seatId": 20,
+          "imageId": "6960e01a452afe2bbffed8bc"
+        }
+      ]
+    },
+    {
+      "levelName": "easy",
+      "entries": [
+        {
+          "name": "Artem",
+          "studentTypeId": 1770027925208,
+          "seatId": 1,
+          "imageId": "68b19c736b7c5bd83d524efd"
+        },
+        {
+          "name": "Anja",
+          "studentTypeId": 1765365377771,
+          "seatId": 2,
+          "imageId": "697b55ab2e95e332052810b6"
+        },
+        {
+          "name": "Mehmet",
+          "studentTypeId": 1769764147921,
+          "seatId": 3,
+          "imageId": "68b19bacbac430a52c91a838"
+        },
+        {
+          "name": "Raja",
+          "studentTypeId": 1770027925208,
+          "seatId": 4,
+          "imageId": "6960e01a452afe2bbffed8bc"
+        },
+        {
+          "name": "Richard",
+          "studentTypeId": 1765365377771,
+          "seatId": 5,
+          "imageId": "68b1963a8e571f73228a14db"
+        },
+        {
+          "name": "Kataryna",
+          "studentTypeId": 1770027925208,
+          "seatId": 6,
+          "imageId": "68b19cb2fbd5a2b89c4533bc"
+        },
+        {
+          "name": "Lukas",
+          "studentTypeId": 1765365377771,
+          "seatId": 7,
+          "imageId": "68b1997f185911b6c95974ee"
+        },
+        {
+          "name": "Toni",
+          "studentTypeId": 1765365377771,
+          "seatId": 8,
+          "imageId": "68b199cb83ef17237f8054ab"
+        },
+        {
+          "name": "Mareike",
+          "studentTypeId": 1765365377771,
+          "seatId": 9,
+          "imageId": "68b19a266b7c5bd83d522ad0"
+        },
+        {
+          "name": "Bahar",
+          "studentTypeId": 1769764147921,
+          "seatId": 10,
+          "imageId": "68b19b7217ecc3164604a7b9"
+        },
+        {
+          "name": "Sven",
+          "studentTypeId": 1765365377771,
+          "seatId": 11,
+          "imageId": "68b19aa283ef17237f8060a9"
+        },
+        {
+          "name": "Simon",
+          "studentTypeId": 1765365398266,
+          "seatId": 12,
+          "imageId": "68b19ae483ef17237f806574"
+        },
+        {
+          "name": "Lara",
+          "studentTypeId": 1769764147921,
+          "seatId": 13,
+          "imageId": "68b19b0d36d4d52aff1a192f"
+        },
+        {
+          "name": "Sara",
+          "studentTypeId": 1765365377771,
+          "seatId": 14,
+          "imageId": "68b19a6683ef17237f805d2a"
+        },
+        {
+          "name": "Jana",
+          "studentTypeId": 1765365377771,
+          "seatId": 15,
+          "imageId": "691d8030672cca15c2638e5a"
+        },
+        {
+          "name": "Seren",
+          "studentTypeId": 1769764147921,
+          "seatId": 16,
+          "imageId": "68b19bf68e571f73228a6634"
+        },
+        {
+          "name": "Alisa",
+          "studentTypeId": 1770027925208,
+          "seatId": 17,
+          "imageId": "68b19c2c17ecc3164604b1a2"
+        },
+        {
+          "name": "Max",
+          "studentTypeId": 1765365377771,
+          "seatId": 18,
+          "imageId": "68b1990f8e571f73228a3921"
+        },
+        {
+          "name": "Tom",
+          "studentTypeId": 1765365377771,
+          "seatId": 19,
+          "imageId": "687e077d8010b70ef533e8e9"
+        },
+        {
+          "name": "Hanna",
+          "studentTypeId": 1765365377771,
+          "seatId": 20,
+          "imageId": "68b05ec61a12d32b96a8a0bb"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "Name": "ReadyToWork",
+      "MotiveType": "Competence",
+      "Effect": -0.005,
+      "Duration": "60",
+      "AnimationState": "idle_",
+      "AudioClip": "",
+      "BehaviorType": "OnTaskActive"
+    },
+    {
+      "Name": "ReadyToTalk",
+      "MotiveType": "Relatedness",
+      "Effect": -0.002,
+      "Duration": 10,
+      "AnimationState": "idle_",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskPassive"
+    },
+    {
+      "Name": "NoAction",
+      "MotiveType": "None",
+      "Effect": 0,
+      "Duration": 0,
+      "AnimationState": "idle_",
+      "AudioClip": "",
+      "BehaviorType": "None"
+    },
+    {
+      "Name": "TalkAction",
+      "MotiveType": "Relatedness",
+      "Effect": -0.015,
+      "Duration": 10,
+      "AnimationState": "talk_",
+      "AudioClip": "two_students_whisper_",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "Name": "UsePhone",
+      "MotiveType": "Autonomy",
+      "Effect": -0.01,
+      "Duration": 8,
+      "AnimationState": "scroll",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "Name": "AskTeacherQuestion",
+      "MotiveType": "Relatedness",
+      "Effect": -0.01,
+      "Duration": 6,
+      "AnimationState": "hand_up",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "Name": "LookAtThis",
+      "MotiveType": "Autonomy",
+      "Effect": -0.01,
+      "Duration": 6,
+      "AnimationState": "idle_",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskPassive"
+    },
+    {
+      "Name": "RockChair",
+      "MotiveType": "Autonomy",
+      "Effect": -0.01,
+      "Duration": 8,
+      "AnimationState": "rockChair",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "Name": "Refusal",
+      "MotiveType": "Autonomy",
+      "Effect": -0.01,
+      "Duration": 8,
+      "AnimationState": "crossArms",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "Name": "UsePhoneSocial",
+      "MotiveType": "Relatedness",
+      "Effect": -0.01,
+      "Duration": 8,
+      "AnimationState": "talk_",
+      "AudioClip": "tiktok",
+      "BehaviorType": "OffTaskActive"
+    },
+    {
+      "id": 11,
+      "Name": "Interrupt",
+      "MotiveType": "Approval",
+      "Effect": "-0.1",
+      "Duration": "6",
+      "AnimationState": "crossArms",
+      "AudioClip": "",
+      "BehaviorType": "OffTaskActive"
+    }
+  ],
+  "advertisements": [
+    {
+      "TriggerId": "TeacherAddressesClassIntensity1",
+      "Strength": 1,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": "5",
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesClassIntensity2",
+      "Strength": 2,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": "5",
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesClassIntensity3",
+      "Strength": 3,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": "5",
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherInFront",
+      "Strength": 0.4,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 8000,
+      "DistanceWeighted": false
+    },
+    {
+      "TriggerId": "FeelLikeChatting",
+      "Strength": 0.15,
+      "MotiveType": "Relatedness",
+      "RelatedAction": "ReadyToTalk",
+      "AdvertisementType": "Student",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherFocusesOnStudent",
+      "Strength": 0.4,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 5,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesSpecificStudentIntensity1",
+      "Strength": 7,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": "10",
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesSpecificStudentIntensity2",
+      "Strength": "15",
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": 10,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesSpecificStudentIntensity3",
+      "Strength": "20",
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherVoiceInstruction",
+      "Duration": 10,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "PhoneVisible",
+      "Strength": "0.75",
+      "MotiveType": "Autonomy",
+      "RelatedAction": "UsePhone",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "DoorOpen",
+      "Strength": -0.05,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "ClassEnvironment",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "PhoneDisplayOn",
+      "Strength": 1,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "UsePhone",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherInClass",
+      "Strength": 0.2,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 8000,
+      "DistanceWeighted": false
+    },
+    {
+      "TriggerId": "TeacherCloseToStudent",
+      "Strength": 0.8,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "GongSound",
+      "Strength": 0.5,
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "ClassEnvironment",
+      "Duration": 8000,
+      "DistanceWeighted": false
+    },
+    {
+      "TriggerId": "LookAtThis",
+      "Strength": 0.8,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "LookAtThis",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "PhoneAvailable",
+      "Strength": "0.75",
+      "MotiveType": "Autonomy",
+      "RelatedAction": "UsePhone",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "StudentAvailable",
+      "Strength": "0.08",
+      "MotiveType": "Relatedness",
+      "RelatedAction": "ReadyToTalk",
+      "AdvertisementType": "Student",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "Classroom",
+      "Strength": "0.1",
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "ClassEnvironment",
+      "Duration": 8000,
+      "DistanceWeighted": false
+    },
+    {
+      "TriggerId": "ChairAvailable",
+      "Strength": 0.075,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "RockChair",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesClassIntensity3",
+      "Strength": 1,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "Refusal",
+      "AdvertisementType": "ViolationOfAutonomy",
+      "Duration": 5,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "PhonePlayingMusic",
+      "Strength": 2,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "LookAtThis",
+      "AdvertisementType": "Distractor",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherLookingAway",
+      "Strength": "-0.2",
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 8000,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAddressesSpecificStudentIntensity3",
+      "Strength": 5,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "Refusal",
+      "AdvertisementType": "ViolationOfAutonomy",
+      "Duration": 5,
+      "DistanceWeighted": true
+    },
+    {
+      "TriggerId": "TeacherAvailable",
+      "Strength": 0.1,
+      "MotiveType": "Autonomy",
+      "RelatedAction": "AskTeacherQuestion",
+      "AdvertisementType": "ViolationOfAutonomy",
+      "Duration": 8000,
+      "DistanceWeighted": "false"
+    },
+    {
+      "TriggerId": "TeacherIsTalking",
+      "Strength": "0.3",
+      "MotiveType": "Competence",
+      "RelatedAction": "ReadyToWork",
+      "AdvertisementType": "TeacherPresence",
+      "Duration": 8000,
+      "DistanceWeighted": "true"
+    },
+    {
+      "id": 27,
+      "TriggerId": "StudentAvailable",
+      "Strength": "0.1",
+      "MotiveType": "Approval",
+      "RelatedAction": "Interrupt",
+      "AdvertisementType": "Student",
+      "Duration": "8000",
+      "DistanceWeighted": "true"
+    }
+  ]
+}
